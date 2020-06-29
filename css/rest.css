@@ -1,0 +1,425 @@
+
+/* Common CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* header Section */
+
+#header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0,0,0,0.3)) ,url('../images/corona.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.header-text{
+    max-width: 350px;
+    margin-top: 150px;
+}
+
+.header-text h1{
+    color: white;
+}
+
+h1{
+    font-size: 34px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(173, 173, 173);
+}
+
+.header-text button{
+    margin-top: 20px; 
+    margin-bottom: 60px;
+}
+
+/* Nav */
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: rgb(66, 64, 64);
+    z-index: 2;
+    transition: .5s;
+}
+
+#sideNav ul{
+    padding-top: 100px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Prevention Section */
+
+.prevention-heading{
+    padding-top: 38px;
+    text-align: right;
+    padding-right: 100px;
+    color: #fff;
+    background-color: #111;
+}
+
+#prevention{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #111;
+}
+
+.prevention-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prevention-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.prevention-col h4{
+    padding: 20px 0;
+    color: white;
+}
+
+.prevention-col img{
+    width: 120px;
+    height: 120px;
+}
+
+.prevention img{
+    width: 100px;
+}
+
+.prevention h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Courses Section */
+
+#courses{
+    padding: 100px 0;
+    background-color: #111;
+}
+
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-right-col{
+    flex-basis: 50%;
+}
+
+.course-right-col img{
+    width: 100%;
+}
+
+.course-left-col{
+    flex-basis: 50%;
+}
+
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+
+.line{
+    line-height: 8px;
+}
+
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.course-text{
+    max-width: 350px;
+}
+
+.course-text h1{
+    color: #fff;
+}
+
+.course-text button{
+    margin: 30px 0;
+}
+
+/* About Section */
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #111;
+}
+
+.about-left-col{
+    flex-basis: 50%;
+}
+
+.about-left-col img{
+    width: 100%;
+}
+
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text h1{
+    color: #fff;
+}
+
+.about-text h2{
+    margin: 50px 0 10px;
+    font-size: 21px;
+    font-style: italic;
+    color: #fff;
+}
+
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+.common-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Footer */
+
+#footer{
+    padding: 50px 0 30px;
+    background-color: black;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-right-col{
+    flex-basis: 35%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-info .copyright-text small{
+    color: white;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.footer-text .footer-logo{
+    flex-basis: 40%;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 770px){
+
+    /* #header{
+        background-image: none;
+    } */
+
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    
+    .header-text{
+        margin-top: 100px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+
+    #menuBtn{
+        width: 40px;
+        right: 50px;
+    }
+
+    .common-btn{
+        padding: 10px 16px;
+    }
+
+   .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+
+    .about-text h2{
+        font-size: 18px;
+    }
+
+    .prevention-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .course-left-col{
+        flex-basis: 100%;
+    }
+
+    .course-right-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+
+    .footer-left-col{
+        flex-basis: 100%;
+    }
+
+    .footer-right-col{
+        flex-basis: 100%;
+    }
+
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
