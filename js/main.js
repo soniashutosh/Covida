@@ -26,7 +26,7 @@ let app_data = [],
 let country_code = geoplugin_countryCode();
 let user_country;
 country_list.forEach( country => {
-	if( country.code == country_code ){
+	if( country.code == "IN" ){
 		user_country = country.name;
 	}
 });
