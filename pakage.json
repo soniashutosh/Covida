@@ -1,12 +1,8 @@
 {
-	"name" : "ashutosh",
-	"version" : "1.0.0",
-	"scripts" : {
-		"start" : "node server.js"
-	},
-	"dependencies" : {
-		"express" : "4.13.3"
-	},
-	"author" : "Ashutosh",
-	"license": "ISC"
+  "name": "covida",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  }
 }
