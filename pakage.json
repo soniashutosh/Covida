@@ -1,0 +1,12 @@
+{
+	"name" : "ashutosh",
+	"version" : "1.0.0",
+	"scripts" : {
+		"start" : "node server.js"
+	},
+	"dependencies" : {
+		"espress" : "4.13.3"
+	},
+	"author" : "Ashutosh",
+	"license": "ISC"
+}
