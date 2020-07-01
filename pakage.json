@@ -5,7 +5,7 @@
 		"start" : "node server.js"
 	},
 	"dependencies" : {
-		"espress" : "4.13.3"
+		"express" : "4.13.3"
 	},
 	"author" : "Ashutosh",
 	"license": "ISC"
